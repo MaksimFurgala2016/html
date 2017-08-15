@@ -31,9 +31,10 @@
 /*****/
 
 /*rollover*/
-.rollover li.first {
-    list-style-image: url("");
-}
 .carousel-caption {
     margin-top: 200px;
+}
+
+ol {
+    list-style-image: url("/test/content/7.png");
 }

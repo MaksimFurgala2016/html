@@ -79,13 +79,13 @@
 
             <div id="general-rollover" class="carousel slide" data-ride="carousel">
                 <!-- Индикаторы карусели -->
-                <ol class="carousel-indicators rollover">
-                    <li data-target="#general-rollover" data-slide-to="0" class="active first"></li>
-                    <li data-target="#general-rollover" data-slide-to="1" class="second"></li>
-                    <li data-target="#general-rollover" data-slide-to="2" class="third"></li>
-                    <li data-target="#general-rollover" data-slide-to="3" class="fourth"></li>
-                    <li data-target="#general-rollover" data-slide-to="4" class="fifth"></li>
-                </ol>
+                <!--<ol class="carousel-indicators rollover">-->
+                    <!--<li data-target="#general-rollover" data-slide-to="0" class="active first"></li>-->
+                    <!--<li data-target="#general-rollover" data-slide-to="1" class="second"></li>-->
+                    <!--<li data-target="#general-rollover" data-slide-to="2" class="third"></li>-->
+                    <!--<li data-target="#general-rollover" data-slide-to="3" class="fourth"></li>-->
+                    <!--<li data-target="#general-rollover" data-slide-to="4" class="fifth"></li>-->
+                <!--</ol>-->
 
                 <!-- Слайды карусели -->
                 <div class="carousel-inner">
@@ -130,6 +130,7 @@
                         </div>
                     </div>
 
+                    <!--Слайд 5-->
                     <div class="item">
 
                         <div class="logo">
@@ -142,17 +143,17 @@
                     </div>
 
                 </div>
-
                 <!--navigation of carousel(prev next slide)-->
                 <!--prev slide-->
-                <a class="left carousel-control" href="#general-rollover" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-
-                <!--next slide-->
-                <a class="right carousel-control" href="#general-rollover" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+                <div style="margin-top: 20px; text-align:center;">
+                    <a class="left-nav"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="first"><span class="glyphicon glyphicon-collapse-up"></span></a>
+                    <a class="second"><span class="glyphicon glyphicon-collapse-up"></span></a>
+                    <a class="third"><span class="glyphicon glyphicon-collapse-up"></span></a>
+                    <a class="fourth"><span class="glyphicon glyphicon-collapse-up"></span></a>
+                    <a class="fifth"><span class="glyphicon glyphicon-collapse-up"></span></a>
+                    <a class="right-nav"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
             </div>
 
         </div>
@@ -177,5 +178,6 @@
 <!--end footer-->
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/rollover-controller.js"></script>
 </body>
 </html>
