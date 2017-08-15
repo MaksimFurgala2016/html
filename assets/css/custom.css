@@ -1,0 +1,39 @@
+/*******custom default bootstrap stiles ********/
+/*navigation panel*/
+.container-fluid {
+    background-color: rgba(0,0,0,0.0);
+}
+.navbar.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+/****************header***************/
+.header {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255,255,255);
+    background-image: url("/test/content/city.png");
+}
+
+
+/*logo*/
+.name-logo {
+    font-size: 19.2pt;
+}
+.details-logo {
+    font-size: 12.8pt;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    margin-bottom: 126px;
+}
+/*****/
+
+/*rollover*/
+.rollover li.first {
+    list-style-image: url("");
+}
+.carousel-caption {
+    margin-top: 200px;
+}
