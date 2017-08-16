@@ -32,7 +32,7 @@
 .nav-global {
     align-items: center;
     text-align: center;
-    align-content: center;
+
 }
 
 #industry {
@@ -52,12 +52,11 @@
 
 }
 #contacts {
-    padding-left: 10%;
+    /*padding-left: 10%;*/
 
 }
 #search {
-   margin-left: 70%;
-    position: absolute;
+    padding-left: 5%;
 
 }
 /****custom default tags html***/
@@ -233,3 +232,35 @@ a.btn.btn-social-icon.btn-facebook, a.btn.btn-social-icon.btn-twitter, a.btn.btn
         background-image: none;
     }
 }
+.navigation ul li {
+    text-align: center;
+}
+.navbar-default .navbar-nav>li a {
+    /*margin-left: 10%;*/
+    /*width: 75%;*/
+
+
+
+}
+#bs-example-navbar-collapse-1 {
+    /*padding-left: 20%;*/
+    padding: 0;
+
+}
+#bs-example-navbar-collapse-1 a {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.nav.navbar-nav {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.navigation.container-fluid {
+    padding: 0;
+}
+
