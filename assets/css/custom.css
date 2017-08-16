@@ -149,8 +149,8 @@ hr {
 }
 
 /*MAP*/
-.map {
-    background-image: url("map.png");
+#map {
+    width: auto;
     height: 500px;
 }
 
