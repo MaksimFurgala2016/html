@@ -7,6 +7,33 @@
     border: none;
     background-color: transparent;
 }
+/****custom default tags html***/
+
+h3 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 24pt;
+    color: rgb(53,53,53);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.area {
+    text-align: center;
+    align-items: center;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid rgb(53,53,53);
+    width: 68px;
+    display: inline-block;
+}
+.line {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
 /****************header***************/
 .header {
     font-family: "Open Sans", sans-serif;
@@ -35,6 +62,34 @@
     margin-top: 200px;
 }
 
-ol {
-    list-style-image: url("/test/content/7.png");
+/*text topic page*/
+.text-topic {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    color: rgb(134,134,134);
+}
+
+
+/*************content******************/
+.industry {
+    margin-top: 46px;
+}
+.industry-item {
+vertical-align: middle;
+}
+.industry-item figure {
+    text-align: center;
+    border: 1px solid rgb(207,225,234);
+    height: 193px;
+    width: 172px;
+    padding-top: 45px;
+    color: rgb(53,53,53);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.industry-item figure figcaption {
+    margin-top: 10px;
 }
