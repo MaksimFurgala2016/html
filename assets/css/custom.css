@@ -28,11 +28,6 @@ hr {
     width: 68px;
     display: inline-block;
 }
-.line {
-    text-align: center;
-    align-items: center;
-    margin-bottom: 35px;
-}
 
 /****************header***************/
 .header {
@@ -72,6 +67,10 @@ hr {
 
 
 /*************content******************/
+.content {
+    margin-top: 60px;
+}
+/****************INDUSTRY**********************/
 .industry {
     margin-top: 46px;
 }
@@ -92,4 +91,23 @@ vertical-align: middle;
 }
 .industry-item figure figcaption {
     margin-top: 10px;
+}
+.industry-row {
+    margin-bottom: 35px;
+}
+.line {
+    text-align: center;
+    align-items: center;
+}
+/*********ADVANTAGES***********/
+.background-content {
+    background-image: url("/test/content/man.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+
+}
+.advantages-row {
+    margin: 160px 0 130px 0;
+
 }
