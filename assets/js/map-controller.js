@@ -1,27 +1,23 @@
-// Как только будет загружен API и готов DOM, выполняем инициализацию
 ymaps.ready(init);
+var myMap;
 
 function init () {
-    // Создание экземпляра карты и его привязка к контейнеру с
-    // заданным id ("map")
-    var myMap = new ymaps.Map('map', {
-        // При инициализации карты, обязательно нужно указать
-        // ее центр и коэффициент масштабирования
-        center: [47.221347, 38.917358], // Нижний Новгород
-        zoom: 13
+    myMap = new ymaps.Map('map', {
+
+        center: [47.221347, 38.917358],
+        zoom: 13,
+        controls: ['smallMapDefaultSet']
     });
 
-    // Создание метки
-    var myGeoObject = new ymaps.GeoObject({
-        // Геометрия.
-        geometry: {
-            // Тип геометрии - точка
-            type: "Point",
-            // Координаты точки.
-            coordinates: [47.221347, 38.917358]
-        }
+    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+        hintContent: 'Альянс'
+    }, {
+        iconLayout: 'default#image',
+        iconImageHref: 'content/locator.png',
+        iconImageSize: [49, 69],
+        iconImageOffset: [0, -69]
     });
 
-    // Добавление метки на карту
-    myMap.geoObjects.add(myGeoObject);
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable(['drag', 'scrollZoom']);
 }
