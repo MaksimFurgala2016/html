@@ -100,24 +100,37 @@ vertical-align: middle;
     align-items: center;
 }
 /*********ADVANTAGES***********/
+.advantages {
+    text-align: center;
+}
 .background-content {
     background-image: url("/test/content/man.png");
     background-repeat: no-repeat;
     background-position: left bottom;
-
-
 }
 .advantages-row {
     margin: 160px 0 130px 0;
 }
+.advantages figcaption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
 
 /*partners*/
+.partners {
+    margin-bottom: 36px;
+}
 .partners-two {
     text-align: center;
     align-self: center;
+
 }
 #first {
     margin-left: 4%;
+}
+.second-line {
+    margin: 80px 0 70px 0;
 }
 /***********Contacts**********/
 .contacts {
