@@ -14,6 +14,52 @@
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
+
+#bs-example-navbar-collapse-1 {
+    text-align: center;
+    /*align-items: center;*/
+    /*align-content: center;*/
+}
+.nav-global #bs-example-navbar-collapse-1 {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 18%;
+    width: 100%;
+    padding: 0;
+
+}
+.nav-global {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+#industry {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+#company {
+    padding-left: 0;
+    padding-right: 0;
+}
+#services {
+    padding-left: 0;
+    padding-right: 0;
+}
+#partners {
+
+}
+#contacts {
+    padding-left: 10%;
+
+}
+#search {
+   margin-left: 70%;
+    position: absolute;
+
+}
 /****custom default tags html***/
 
 h3 {
