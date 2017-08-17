@@ -19,5 +19,5 @@ function init () {
     });
 
     myMap.geoObjects.add(myPlacemark);
-    myMap.behaviors.disable(['drag', 'scrollZoom']);
+    myMap.behaviors.disable(['scrollZoom']);
 }

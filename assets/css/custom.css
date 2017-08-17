@@ -107,6 +107,8 @@ hr {
 }
 .logo {
     text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
 }
 .logo img {
     margin-bottom: 126px;
@@ -276,9 +278,35 @@ a.btn.btn-social-icon.btn-facebook, a.btn.btn-social-icon.btn-twitter, a.btn.btn
     align-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 1%;
 
 }
 .navigation.container-fluid {
     padding: 0;
+}
+.rollover {
+    margin-bottom: 4%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.rollover a {
+    color: white;
+    text-decoration: none;
+}
+.rollover-content {
+    margin-bottom: 7%;
+}
+.first-row-partners {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+.row.second-line {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+
 }
 
