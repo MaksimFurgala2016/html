@@ -19,5 +19,9 @@ function init () {
     });
 
     myMap.geoObjects.add(myPlacemark);
-    myMap.behaviors.disable(['scrollZoom']);
+    myMap.behaviors.disable(['drag', 'scrollZoom']);
+    myMap.setCenter([47.221347, 38.917358], 13);
+    myMap.controls.remove('searchControl');
+    myMap.controls.remove('fullscreenControl');
+    myMap.controls.remove('typeSelector');
 }
