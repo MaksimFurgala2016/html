@@ -180,10 +180,23 @@
 
 /*IPAD Pro etc devices*/
 /*fixed phone position*/
-@media (min-width: 992px) {
+@media (max-width: 1024px) {
     .background-content {
         background-position: 0 60%;
         background-size: 35%;
+    }
+
+
+}
+@media (max-width: 320px) {
+    .logo img {
+        /*margin-top: 20%;*/
+        vertical-align: baseline;
+        /*margin-bottom: 15%;*/
+        margin-bottom: 55%;
+    }
+    .header {
+        background-position: center bottom;
     }
 
 
