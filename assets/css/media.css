@@ -54,10 +54,23 @@
         background-color: #0f0f0f;
     }
     .logo {
-        margin-top: 20%
+        /*margin-top: 20%*/
     }
     .details-logo {
-        display: none;
+        /*display: none;*/
+        /*margin-top: 200px ;*/
+    }
+    /*.carousel-caption {*/
+        /*margin-top: 150px;*/
+    /*}*/
+    .logo img {
+        /*margin-top: 20%;*/
+        vertical-align: baseline;
+        margin-bottom: 35%;
+        margin-top: 15%;
+    }
+    .carousel-caption {
+        /*margin-top: 140px;*/
     }
 
 
@@ -165,10 +178,12 @@
     }
 }
 
-@media (min-width: 767px) {
-    #bs-example-navbar-collapse-1 {
-        margin: 0;
-        padding-top: 10px;
+/*IPAD Pro etc devices*/
+/*fixed phone position*/
+@media (min-width: 992px) {
+    .background-content {
+        background-position: 0 60%;
+        background-size: 35%;
     }
 
 
