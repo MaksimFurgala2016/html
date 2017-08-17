@@ -12,7 +12,7 @@
     <!--<link href="assets/css/bootstrap-theme.min.css">-->
     <link href="assets/css/import.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="assets/css/media.css">
+    <link href="assets/css/media.css" rel="stylesheet">
     <!-------------------------------------->
 </head>
 <body>
@@ -101,63 +101,8 @@
     <!--------------------------------------------->
 
     <div class="container">
-        <!--<div class="row nav-global">-->
-            <!--<nav class="navbar navbar-default navigation">-->
-                <!--<div class="container-fluid navigation">-->
-                    <!--&lt;!&ndash;&ndash;&gt;-->
-                    <!--<div class="navbar-header">-->
-                        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
-                            <!--<span class="sr-only">Toggle navigation</span>-->
-                            <!--<span class="icon-bar"></span>-->
-                            <!--<span class="icon-bar"></span>-->
-                            <!--<span class="icon-bar"></span>-->
-                        <!--</button>-->
 
-                    <!--</div>-->
-
-                    <!--<div class="row nav-global">-->
-                        <!--&lt;!&ndash;&ndash;&gt;-->
-                        <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-                            <!--<ul class="nav navbar-nav">-->
-                                <!--<li id="company" class="col-md-3 dropdown">-->
-                                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">О компании<span class="caret"></span></a>-->
-                                    <!--<ul class="dropdown-menu">-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                    <!--</ul>-->
-                                <!--</li>-->
-
-                                <!--<li id="services" class="col-md-2 dropdown">-->
-                                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги<span class="caret"></span></a>-->
-                                    <!--<ul class="dropdown-menu">-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                    <!--</ul>-->
-                                <!--</li>-->
-                                <!--<li id="industry" class="col-md-2 dropdown">-->
-                                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Отрасли<span class="caret"></span></a>-->
-                                    <!--<ul class="dropdown-menu">-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                        <!--<li><a href="#">something here</a></li>-->
-                                    <!--</ul>-->
-                                <!--</li>-->
-                                <!--<li id="partners" class="col-md-2"><a href="#">Партнеры</a></li>-->
-                                <!--<li id="contacts" class="col-md-2"><a href="#">Контакты</a></li>-->
-                                <!--<li id="search" class="col-md-1"><a><span class="glyphicon glyphicon-search"></span></a></li>-->
-                            <!--</ul>-->
-                        <!--</div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
-                    <!--</div>-->
-
-                <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
-            <!--</nav>-->
-        <!--</div>-->
         <!--logo-->
-        <div class="row logo">
-
-        </div>
 
         <div class="rollover-content row">
             <div id="general-rollover" class="carousel slide" data-ride="carousel">
@@ -270,24 +215,24 @@
                 <hr>
             </div>
         <div class="row text-topic">
-            <div class="col-md-12">
+            <div class="topic-industry col-md-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices libero nulla, sed consectetur metus lacinia in. Suspendisse ut elit non magna accumsan dapibus. In vel est eu sapien commodo finibus. Proin at tellus eleifend eros condimentum condimentum.
             </div>
         </div>
         <div class="row industry">
-            <div class="col-md-offset-1 col-md-3 industry-item">
+            <div class="col-md-offset-1 col-md-3 col-xs-6 industry-item">
                 <figure>
                     <img src="content/Forma_1.png">
                     <figcaption>Медицинские компании</figcaption>
                 </figure>
             </div>
-            <div class="col-md-offset-1 col-md-3 industry-item">
+            <div class="col-md-offset-1 col-md-3 col-xs-6 industry-item">
                 <figure>
                     <img src="content/Forma_2.png">
                     <figcaption>Компании по продажам</figcaption>
                 </figure>
             </div>
-            <div class="col-md-offset-1 col-md-3 industry-item">
+            <div class="col-md-offset-1 col-xs-offset-3 col-md-3 col-xs-6 industry-item">
                 <figure>
                     <img src="content/Forma_3.png">
                     <figcaption>Ремонт медицинского оборудования</figcaption>
@@ -357,6 +302,8 @@
             <h3>Партнеры</h3>
             <hr>
         </div>
+
+        <div class="visible-xs partners-xs">
         <div class="row col-md-offset-3">
             <div class="first-row-partners row">
             <div class="col-md-2">
@@ -367,37 +314,38 @@
             </div>
             <div class="col-md-2">
                 <figure>
-                    <img src="content/master-hearing.png">
+                    <img class="hidden-xs" src="content/master-hearing.png">
                     <figcaption>ООО “МЦ МастерСлух”</figcaption>
                 </figure>
             </div>
             <div class="col-md-2">
                 <figure>
-                    <img src="content/master-hearing.png">
+                    <img class="hidden-xs" src="content/master-hearing.png">
                     <figcaption>ООО “МЦ МастерСлух - Сочи”</figcaption>
                 </figure>
             </div>
             <div class="col-md-2">
                 <figure>
-                    <img src="content/master-hearing.png">
+                    <img class="hidden-xs" src="content/master-hearing.png">
                     <figcaption>ООО “МЦ МастерСлух - Астрахань”</figcaption>
                 </figure>
             </div>
             </div>
-
         </div>
+
+
         <div class="row col-md-offset-1 partners-two">
             <div class="row second-line">
             <div class="col-md-offset-1 col-md-2" id="first">
                 <figure>
-                    <img src="content/master-hearing.png">
+                    <img class="hidden-xs" src="content/master-hearing.png">
                     <figcaption>ООО “МЦ МастерСлух - Самара”</figcaption>
                 </figure>
             </div>
 
             <div class="col-md-2">
                 <figure>
-                    <img src="content/master-hearing.png">
+                    <img class="hidden-xs" src="content/master-hearing.png">
                     <figcaption>ООО  “МастерСлух - Москва”</figcaption>
                 </figure>
             </div>
@@ -425,15 +373,15 @@
         </div>
     </div>
     </div>
-
+    </div>
 <!--end content-->
-<div id ="map" class="map" style="width: auto; height: 500px">
+<div id ="map" class="map">
 
 </div>
 
 
 <div class="contacts">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row line">
             <h3 class="contact-header">Контакты</h3>
             <hr>
@@ -449,7 +397,7 @@
             <div class="col-md-offset-1 col-md-2">
                 <span class="glyphicon glyphicon-phone-alt"></span>
                 <div class="contact">
-                    тел. 8 988 579 13 93,  8 928 902 93 90
+                    тел. 8 988 579 13 93,<br>   8 928 902 93 90
                 </div>
             </div>
             <div class="col-md-offset-1 col-md-2">

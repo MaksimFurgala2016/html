@@ -248,11 +248,10 @@ a.btn.btn-social-icon.btn-facebook, a.btn.btn-social-icon.btn-twitter, a.btn.btn
     color: rgb(255,255,255);
 }
 /*****************************/
-@media (max-width: 768px) {
-    .background-content {
-        background-image: none;
-    }
-}
+
+
+
+
 .navigation ul li {
     text-align: center;
 }
@@ -279,7 +278,8 @@ a.btn.btn-social-icon.btn-facebook, a.btn.btn-social-icon.btn-twitter, a.btn.btn
     color: #0f0f0f;
     background-color: rgb(166,159,136);
 }
-.navbar-default .navbar-nav>li>a+a {
+.navbar-default .navbar-nav>li>a {
+    border-radius: 5px;
 }
 .navigation.container-fluid {
     padding: 0;
