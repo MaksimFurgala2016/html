@@ -1,21 +1,17 @@
-/*IPHONE 5, 6 , Pro etc. devices*/
+/****************IPHONE 5, 6 , Pro etc. devices***************/
+/*************************************************************/
+
 @media (max-width: 768px) {
 
     /************/
     .background-content {
         background-image: none;
     }
-    /*.rollover img {*/
-        /*width: 100%;*/
-        /*height: auto;*/
-        /*margin: 0;*/
-    /*}*/
-    /*.rollover span {*/
-        /*display: none;*/
-    /*}*/
+
     .rollover {
         display: none;
     }
+
     /*HEADER*/
     .header {
         background-position: 100%;
@@ -30,65 +26,58 @@
         border-radius: 5px;
         text-align: left;
     }
+
     #bs-example-navbar-collapse-1 a {
         color: #0f0f0f;
         text-align: center;
     }
+
     .navbar-header {
         position: fixed;
         z-index: 10;
     }
+
     .navbar.navbar-default.navigation {
         position: fixed;
         z-index: 10;
     }
+
     .navbar-toggle.collapsed {
         margin-left: 15px;
         border-color: #0f0f0f;
         box-shadow: 3px 3px rgba(0,0,0,0.5);
     }
+
     .navbar-toggle.collapsed {
         background-color: rgb(166,159,136);
     }
+
     .navbar-toggle.collapsed span.icon-bar {
         background-color: #0f0f0f;
     }
-    .logo {
-        /*margin-top: 20%*/
-    }
-    .details-logo {
-        /*display: none;*/
-        /*margin-top: 200px ;*/
-    }
-    /*.carousel-caption {*/
-        /*margin-top: 150px;*/
-    /*}*/
+
     .logo img {
-        /*margin-top: 20%;*/
         vertical-align: baseline;
         margin-bottom: 35%;
         margin-top: 15%;
     }
-    .carousel-caption {
-        /*margin-top: 140px;*/
-    }
-
-
-
 
         /*CONTENT*/
     /*industry*/
     .col-md-offset-1.col-md-3.industry-item>figure {
         border: none;
     }
+
     .col-md-offset-1.col-md-3.industry-item>figure img {
         width: auto;
         height: auto;
     }
+
     .row.industry {
         /*text-align: center;*/
         margin-top: 5%;
     }
+
     .industry-item figure {
         padding: 0;
         height: auto;
@@ -96,39 +85,49 @@
         width: auto;
         font-size: 10pt;
     }
+
     .row.line.industry-row {
         margin: 0;
     }
+
     h3 {
         font-size: 15pt;
         margin-bottom: 0;
     }
+
     .topic-industry {
         font-size: 10pt;
     }
+
     /*advantages*/
     .row.line.advantages-row {
         margin-top: 20%;
         margin-bottom: 0;
     }
+
     .background-advatages figcaption {
         font-size: 10pt;
     }
+
     .text-topic {
         font-size: 10pt;
     }
+
     .advantages figcaption {
         margin-bottom: 5%;
     }
+
     /*about*/
     .about {
         margin-top: 0;
         margin-bottom: 0;
     }
+
     h3.about {
         margin-top: 0;
         margin-bottom: 0;
     }
+
     .about-text.text-topic {
         margin-top: 0;
         margin-bottom: 5%;
@@ -139,6 +138,7 @@
         margin-bottom: 0;
 
     }
+
     .row.line.partners figcaption {
         font-size: 10pt;
     }
@@ -146,27 +146,34 @@
     .row.col-md-offset-1.partners-two figcaption{
         font-size: 10pt;
     }
+
     .partners-xs figcaption {
         font-size: 10pt;
     }
+
     .row.col-md-offset-1.partners-two {
         margin-top: -80px;
     }
+
     .row.col-md-offset-1.partners-two figure>img {
         width: 15%;
     }
+
     .first-row-partners.row figure>img {
     width: 15%}
     /*contacts*/
     .glyphicon.glyphicon-map-marker, .glyphicon.glyphicon-phone-alt, .glyphicon.glyphicon-envelope {
         font-size: x-large;
     }
+
     .contacts .contact {
         font-size: 10pt;
     }
+
     .contact-header {
         margin-top: 5%;
     }
+
     #map {
         max-height: 250px;
         padding: 5%;
@@ -181,6 +188,8 @@
 /*IPAD Pro etc devices*/
 /*fixed phone position*/
 @media (max-width: 1024px) {
+
+
     .background-content {
         background-position: 0 60%;
         background-size: 35%;
@@ -188,13 +197,15 @@
 
 
 }
+
 @media (max-width: 320px) {
+
+
     .logo img {
-        /*margin-top: 20%;*/
         vertical-align: baseline;
-        /*margin-bottom: 15%;*/
         margin-bottom: 55%;
     }
+
     .header {
         background-position: center bottom;
     }
